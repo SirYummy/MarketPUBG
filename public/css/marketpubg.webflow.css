@@ -62,7 +62,7 @@ p {
   margin-left: 8px;
   padding: 14px 29px;
   border-radius: 5px;
-  background-color: #6d7280;
+  background-color: #6d728;
   -webkit-transition: background-color 300ms ease;
   transition: background-color 300ms ease;
   font-family: Montserrat, sans-serif;
@@ -367,9 +367,9 @@ p {
   bottom: 0px;
   display: block;
   width: 405px;
-  margin-top: 15px;
+  margin-top: 5px;
   margin-bottom: 0px;
-  margin-left: -3px;
+  margin-left: 4px;
   padding-right: 8px;
   padding-bottom: 8px;
   padding-left: 8px;
@@ -380,6 +380,62 @@ p {
   background-image: -webkit-linear-gradient(270deg, #181a1f, #181a1f);
   background-image: linear-gradient(180deg, #181a1f, #181a1f);
   text-align: left;
+}
+
+.SellInv {
+	margin-right: 15px;
+	margin-top: 110px;
+	position: relative;
+	width: 375px;
+	height: 521px;
+	border: #A7A7A7;
+	border-style: solid;
+	border-radius: 3px;
+	border-width: 3px;
+	float: right;
+	clear: none;
+}
+
+.SellInvImage  {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	clear: none;
+}
+
+.priceInv {
+  margin-top: 10px;
+  margin-left: 0px;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+	
+}
+
+.premiumInv {
+margin-top: 10px;
+  margin-left: 0px;
+  font-family: Montserrat, sans-serif;
+  color: #e29600;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.linkInvMarket {
+  margin-top: 20px;
+  margin-left: 0px;
+  font-family: Montserrat, sans-serif;
+  color: #a7a7a7;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+	
 }
 
 .submit-button {
@@ -470,6 +526,137 @@ p {
   margin-top: 24px;
   margin-left: 325px;
   padding-left: 0px;
+}
+
+.tab {
+max-width: 500px;
+position: relative;
+	margin-left: 11px;
+}
+
+.tabcontent {
+    padding-top: auto;
+	margin-top: 0px;
+	display: none;
+    padding: 6px 12px;
+    border: none;
+    border-top: none;
+	max-width: 550px;
+}
+
+div.tab button:hover {
+    background-color: #00b15c;
+}
+
+.SearchInv {
+	margin-bottom: 50px;
+
+
+	
+}	
+
+.invsteam {
+	clear: left;
+	margin-top: 100px;
+
+
+	
+}	
+
+.searchicon {
+
+  content: url(../images/searchicon.png);
+   width: 25px;
+	height: 25px;
+   margin:0; /* If you want no margin */
+   padding:0; /*if your want to padding */
+}	
+
+.search-button {
+  height: 38px;
+  padding: 9px 15px;
+  cursor: pointer;
+  left: auto;
+  right: auto;
+  display: block;
+  overflow: visible;
+  width: 60px;
+  margin-top: 5px;
+  float: left;
+  clear: none;
+  border-radius: 0px 3px 3px 0px;
+  background-image: -webkit-linear-gradient(270deg, #e29600, #e29600);
+  background-image: linear-gradient(180deg, #e29600, #e29600);
+  font-family: Montserrat, sans-serif;
+  color: #263044;
+  font-size: 20px;
+  font-weight: 400;
+	
+}	
+div.tab button {
+	height: 50px;
+    display: block;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: 5px;
+  padding-right: 13px;
+  padding-left: 13px;
+  float: left;
+  border-radius: 3px;
+  background-color: #218B55;
+  font-family: Montserrat, sans-serif;
+  color: #232c3;
+  font-size: 13px;
+  font-weight: 600;
+}	
+
+
+div.tab button.active {
+    background-color: #00b15c;
+}
+
+.tabcontent {
+    -webkit-animation: fadeEffect 0.5s;
+    animation: fadeEffect 0.5s; /* Fading effect takes 1 second */
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.ItemInventory {
+   position: relative;
+   float: left;
+   display: block;
+   width: 100px;
+   height: 100px;
+
+	margin-left: 5px;
+   margin-bottom: 0px;
+	margin-top: 5px;
+   border: 3px solid #a7a7a7;
+   border-radius: 3px;
+  }
+
+.ItemInventoryNewRow {
+   clear: left;
+	position: relative;
+   float: left;
+   display: block;
+   width: 100px;
+   height: 100px;
+   
+	margin-bottom: 0px;
+	margin-top: 5px;
+	margin-left: 5px;
+   border: 3px solid #a7a7a7;
+   border-radius: 3px;
 }
 
 .form-black-2 {
@@ -696,6 +883,13 @@ p {
   float: none;
 }
 
+.item-imageInventory {
+ position: relative;
+ margin: auto;
+
+}
+
+
 .image-26 {
   margin-top: -17px;
 }
@@ -725,7 +919,7 @@ p {
 .div-block-5 {
   display: block;
   width: 520px;
-  margin-top: -58px;
+  margin-top: -40px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 0px;
@@ -820,6 +1014,8 @@ p {
   font-family: Montserrat, sans-serif;
   color: #fff;
 }
+
+button:focus {outline:0 !important;}
 
 .list-item-5 {
   font-family: Montserrat, sans-serif;
@@ -2111,6 +2307,75 @@ p {
   font-weight: 900;
 }
 
+.button-sellInv {
+	margin-top: 40px;
+	margin-left: 5px;
+  width: 120px;
+  border-radius: 3px;
+  background-image: -webkit-linear-gradient(270deg, #00b15c, #00b15c);
+  background-image: linear-gradient(180deg, #00b15c, #00b15c);
+  font-family: Montserrat, sans-serif;
+  color: #232c3d;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.mainNavigationMenu {
+float: left;
+	
+}
+
+.searchNav {
+
+	
+}
+
+
+.SellNavigation {
+  margin-top: -9px;
+  margin-left: 22px;
+  cursor: pointer;
+  left: auto;
+  right: auto;
+  display: block;
+  overflow: visible;
+  width: 60px;
+  float: left;
+  clear: none;
+  border-radius: 3px 3px 3px 3px;
+  background-image: -webkit-linear-gradient(270deg, #00b15c, #00b15c);
+  background-image: linear-gradient(180deg, #00b15c, #00b15c);
+  font-family: Montserrat;
+  color: #263044;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+
+}
+
+.button-marketInv {
+	margin-top: 40px;
+	margin-right: 5px;
+  width: 120px;
+  border-radius: 3px;
+  background-image: -webkit-linear-gradient(270deg, #e29600, #e29600);
+  background-image: linear-gradient(180deg, #e29600, #e29600);
+  font-family: Montserrat, sans-serif;
+  color: #232c3d;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.margintop30 {
+  margin-top: 30px;
+}
+
 .div-block-21 {
   width: 225px;
 }
@@ -2497,4 +2762,5 @@ html.w-mod-js *[data-ix="model-sell"] {
     margin-right: auto;
     margin-left: auto;
   }
+	
 }

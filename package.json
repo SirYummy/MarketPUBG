@@ -1,6 +1,7 @@
 {
   "name": "marketpubg",
   "version": "0.1.0",
+  "author" : "Micah Bolen",
   "private": true,
   "dependencies": {
     "react": "^16.0.0",
